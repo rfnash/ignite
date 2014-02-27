@@ -1,15 +1,16 @@
-# Maintainer: Christian Neukirchen <chneukirchen@gmail.com>
-pkgname=ignite-git
-pkgver=20140131
+# Maintainer: Robert F. nash <robert@robertnash.net>
+# Contributer: Christian Neukirchen <chneukirchen@gmail.com>
+pkgname=ignite-rfnash-git
+pkgver=20140226
 pkgrel=1
-pkgdesc="A replacement for sysvinit based upon runit, Git HEAD version"
-url="https://github.com/chneukirchen/ignite"
+pkgdesc="A replacement for sysvinit based upon runit, Git HEAD version of rfnash's fork"
+url="https://github.com/rfnash/ignite"
 license=('custom')
 arch=('i686' 'x86_64' 'arm')
 depends=('bash' 'util-linux' 'procps-ng' 'runit-musl')
 makedepends=('gcc' 'make' 'coreutils' 'sed' 'git' 'musl')
-provides=('ignite')
-conflicts=('ignite' 'sysvinit')
+provides=('ignite' 'ignite-git')
+conflicts=('ignite' 'ignite-git' 'sysvinit')
 install=ignite.install
 source=('git+https://github.com/rfnash/ignite.git')
 md5sums=('SKIP')
