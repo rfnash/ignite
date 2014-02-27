@@ -11,7 +11,7 @@ makedepends=('gcc' 'make' 'coreutils' 'sed' 'git' 'musl')
 provides=('ignite')
 conflicts=('ignite' 'sysvinit')
 install=ignite.install
-source=('git+https://github.com/chneukirchen/ignite.git')
+source=('git+https://github.com/rfnash/ignite.git')
 md5sums=('SKIP')
 
 # /etc/sv gets added below to this!
