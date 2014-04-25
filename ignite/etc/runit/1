@@ -52,6 +52,7 @@ ip link set up dev lo
 
 [[ $USEDMRAID = yes ]] && dmraid -i -ay
 [[ $USEBTRFS = yes ]] && btrfs device scan
+[[ $USELVM = yes ]] && lvmetad -s /run/lvm/lvmetad.socket
 [[ $USELVM = yes ]] && vgchange --sysinit -a y
 awk '/^#/ || /^$/ { next }
      NF>2 { print "ignite unsupported crypttab: " $0 >"/dev/stderr"; next }
