@@ -1,7 +1,7 @@
 # Maintainer: Robert F. nash <robert@robertnash.net>
 # Contributer: Christian Neukirchen <chneukirchen@gmail.com>
 pkgname=ignite-rfnash-git
-pkgver=20140226
+pkgver=20140425
 pkgrel=1
 pkgdesc="A replacement for sysvinit based upon runit, Git HEAD version of rfnash's fork"
 url="https://github.com/rfnash/ignite"
