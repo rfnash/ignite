@@ -1,2 +1,2 @@
 #!/bin/sh
-exec radvd --nodaemon --logmethod=syslog
+exec /usr/sbin/radvd --nodaemon --logmethod=syslog
