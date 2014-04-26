@@ -1,0 +1,2 @@
+#!/bin/sh
+exec espeakup -V mb-us1 -d
