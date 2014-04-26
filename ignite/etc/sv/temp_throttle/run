@@ -1,0 +1,2 @@
+#!/bin/sh
+exec nice -n -20 /usr/bin/temp_throttle 90 | logger -t temp_throttle
