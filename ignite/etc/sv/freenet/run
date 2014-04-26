@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sv once .
+exec chpst -u freenet /opt/freenet/run.sh start
