@@ -1,0 +1,3 @@
+#!/bin/sh
+tty=${PWD##*-}
+exec env TERM=linux /usr/sbin/qingy $tty -t -n
