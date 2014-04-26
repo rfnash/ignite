@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /opt/gogoc/bin/gogoc -n -y -f /opt/gogoc/bin/gogoc.conf 
