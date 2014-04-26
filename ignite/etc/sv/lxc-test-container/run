@@ -1,0 +1,5 @@
+#!/bin/sh
+
+sv once .
+
+exec lxc-start -d -n ${PWD##*lxc-}

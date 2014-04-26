@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/lib/network/network stop ${PWD##*netctl-}

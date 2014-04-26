@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec dnscrypt-proxy -a 127.0.0.2:3053 -r 113.20.8.17:443  --provider-name=2.dnscrypt-cert-2.cloudns.com.au --provider-key=67A4:323E:581F:79B9:BC54:825F:54FE:1025:8B4F:37EB:0D07:0BCE:4010:6195:D94F:E330
