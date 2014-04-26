@@ -1,2 +1,2 @@
 #!/bin/sh
-exec /usr/lib/colord/colord
+exec /usr/lib/colord/colord 2>&1

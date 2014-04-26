@@ -1,2 +1,2 @@
 #!/bin/sh
-exec /usr/lib/colord/colord-sane
+exec /usr/lib/colord/colord-sane 2>&1

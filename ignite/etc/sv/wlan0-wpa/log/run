@@ -1,4 +1,4 @@
 #!/bin/sh
 interface=${PWD%-wpa/log}
 interface=${interface##*/}
-exec logger -t wpa_supplicant-$(cat ../interface) -p daemon.notice
+exec logger -t wpa_supplicant-$interface -p daemon.notice
