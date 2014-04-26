@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /opt/fms
+exec chpst -u freenet -n 10 /opt/fms/fms
